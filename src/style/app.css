@@ -1,0 +1,25 @@
+.form-grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  position: relative;
+}
+.delete-container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-100%, -50%);
+}
+.delete-container button {
+  background: transparent;
+  outline: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
